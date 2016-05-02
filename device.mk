@@ -170,6 +170,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.qseecomd.sh:system/bin/init.angler.qseecomd.sh
 
+PRODUCT_COPY_FILES += \
+    copperhead/bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # This device is 560dpi.  However the platform doesn't
