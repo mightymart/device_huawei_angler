@@ -31,6 +31,8 @@ PRODUCT_MODEL := Nexus 6P
 PRODUCT_MANUFACTURER := Huawei
 PRODUCT_RESTRICT_VENDOR_FILES := true
 
+PRODUCT_COPY_FILES += device/huawei/angler/backup.xml:system/etc/sysconfig/backup.xml
+
 $(call inherit-product, device/huawei/angler/device.mk)
 $(call inherit-product-if-exists, vendor/huawei/angler/device-vendor.mk)
 
