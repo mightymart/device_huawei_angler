@@ -38,7 +38,8 @@ $(call inherit-product-if-exists, vendor/huawei/angler/device-vendor.mk)
 
 PRODUCT_PACKAGES += \
     Launcher3 \
-    WallpaperPicker
+    WallpaperPicker \
+    LegacyUpdater
 
 PRODUCT_PACKAGES += \
     AOSPLinks
