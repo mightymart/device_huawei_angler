@@ -139,4 +139,6 @@ BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
 
 USE_CLANG_PLATFORM_BUILD := true
 
+BOARD_HAS_ART_VERIFIER_ERRORS := true
+
 -include vendor/huawei/angler/BoardConfigVendor.mk
